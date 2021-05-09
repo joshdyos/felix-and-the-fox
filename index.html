@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/favicon.ico">
+ 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(window).ready(function () 
+  {setTimeout(function(){
+    // Handler for .ready() called.
+    $('html, body').animate({scrollTop: $('#firstscroll').offset().top}, 'slow');
+  }, 3000);
+});
+
+
+
+</script>
+</head>
+
+<body>
+
+
+  <div id="container">
+    <div id="firstscroll"></div>
+    <div id="navigation"><a href="contact.html">CONTACT</a>&emsp;/&emsp;<a href="bassline.html">BASSLINE</a>&emsp;/&emsp;<a href="sessions.html">SESSIONS</a></div>
+    
+    <img src="images/background.png" alt="Background image" id="background">
+    
+    <div class="hometext">
+        <h1>Homepage text</h1>
+        <br>
+        <p> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> irure dolor in reprehenderit in velit esse cillum dolore eu fugiat nulla pariatur. <br><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  
+  <div id="logo">
+    <img src="images/logo.png" alt="FelixFox logo" id="felix">
+  </div>
+
+  
+  
+</body>
+</html>
